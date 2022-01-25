@@ -8,9 +8,9 @@
 | 1.0     | Initial release |
 
 ## Description
-This is a very basic ducky script tester basic tries to emulate the actions of a USB rubber ducky in software
+This is a very basic ducky script tester. It basically tries to emulate the actions of a USB rubber ducky in software.
  
 ## Note
-It does not support all of the ducky script language
+It does not support all of the ducky script language.
 
 i.e., `DEFAULT_DELAY` and `REPEAT`
