@@ -9,7 +9,7 @@
 
 ######################Config######################
 
-# Path to ducky script (No the encoded bin file)
+# Path to ducky script (Not the encoded bin file)
 $path=".\ds.txt"
 
 ##################################################
