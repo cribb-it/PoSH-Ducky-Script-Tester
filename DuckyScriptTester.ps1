@@ -110,7 +110,6 @@ gc $path | % {
         }
         {$PSItem -match '^(WINDOWS|GUI|CONTROL|CTRL|ALT|SHIFT).*'}
         {
-			$modifier=0
 			$stringArray =$command.Split("-")
 			$stringArray | % { Hold-Key (Convert-toFormsKey $_) }
 			if ($pos -gt 0)
@@ -124,7 +123,6 @@ gc $path | % {
 					$wshell.SendKeys($params)
 				}
 			}
-            #[array]::Resize($stringArray)
 			$stringArray | % { Release-Key (Convert-toFormsKey $_) }
             continue
         }
