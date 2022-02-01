@@ -118,7 +118,7 @@ gc $path | % {
 				{
 					$wshell.SendKeys((Convert-toShellKey $params))
 				}
-				Else
+				else
 				{
 					$wshell.SendKeys($params)
 				}
